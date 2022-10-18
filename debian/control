@@ -1,0 +1,24 @@
+Source: ruby-creole
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Eugene Lavnikevich <e.lavnikevich@sam-solutions.net>, Jérémy Bobbio <lunar@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~), ruby-bacon
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-creole.git
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-creole.git;a=summary
+Homepage: https://github.com/minad/creole
+XS-Ruby-Versions: all
+
+Package: ruby-creole
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Creole common wiki markup language to HTML converter
+ This Ruby library contains a Creole-to-HTML converter for Creole, the
+ lightweight markup language.
+ .
+ Creole is a common wiki markup language to be used across different wikis.
+ It's not replacing existing markup but instead enabling wiki users to
+ transfer content seamlessly across wikis, and for novice users to contribute
+ more easily.

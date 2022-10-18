@@ -1,0 +1,23 @@
+ruby-creole (0.5.0-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:43:48 +0100
+
+ruby-creole (0.5.0-2) unstable; urgency=low
+
+  [ Jérémy Bobbio ]
+  * Rebuild for Ruby versions currently in the archive.
+  * Bump Standards-Version, no changes required.
+
+  [ Cédric Boutillier ]
+  * Use canonical URI in Vcs-* fields.
+
+ -- Jérémy Bobbio <lunar@debian.org>  Sat, 03 May 2014 15:41:41 +0200
+
+ruby-creole (0.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #703148)
+
+ -- Jérémy Bobbio <lunar@debian.org>  Mon, 18 Mar 2013 16:23:53 +0100
